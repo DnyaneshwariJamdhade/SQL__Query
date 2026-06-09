@@ -1,36 +1,93 @@
-# SQL Query Project
+# SQL Query Projects – SSMS
 
-## Overview
-This project contains SQL queries solved using an Employee Management System database.
+## Introduction
 
-## Topics Covered
-- CREATE TABLE
-- INSERT Records
-- UPDATE Records
-- DELETE Records
-- WHERE Clause
-- GROUP BY
-- Aggregate Functions (SUM, AVG, COUNT)
-- Sorting and Filtering
-- Top N Records
+This repository contains multiple SQL assignments solved using SQL Server Management Studio (SSMS). The projects demonstrate both fundamental and advanced SQL concepts through practical database management and data analysis tasks.
 
-## Database Table
-employees1
+---
 
-## Queries Included
-1. Create Employee Table
-2. Insert Employee Records
-3. Update Employee Salary
-4. Update Project Status
-5. Delete Employee Record
-6. Filter Employees by Salary
-7. Filter Employees by City
-8. Department-wise Employee Count
-9. Department Salary Analysis
-10. City-wise Average Salary
-11. Top 3 Highest Paid Employees
-12. Completed Project Analysis
+## Assignment 1 – Employee Management System
+
+### Key Concepts
+
+* CREATE TABLE
+* INSERT Records
+* UPDATE Records
+* DELETE Records
+* WHERE Clause
+* GROUP BY
+* Aggregate Functions (SUM, AVG, COUNT)
+* Sorting and Filtering
+* Top N Queries
+
+### Queries Implemented
+
+* Create Employee Table
+* Insert Employee Records
+* Update Employee Salary
+* Update Project Status
+* Delete Employee Record
+* Filter Employees by Salary
+* Filter Employees by City
+* Department-wise Employee Count
+* Department Salary Analysis
+* City-wise Average Salary
+* Top 3 Highest Paid Employees
+* Completed Project Analysis
+
+---
+
+## Assignment 2 – Banking Management System
+
+### Key Concepts
+
+* Relational Database Design
+* Customers, Accounts and Transactions Tables
+* SQL Joins
+* Aggregate Functions
+* Subqueries
+* Window Functions
+* Data Analysis and Reporting
+
+### Queries Implemented
+
+* Display Customer Details with Account Balances
+* Rank Customers by Account Balance using RANK()
+* Display Dense Ranking using DENSE_RANK()
+* Show Previous Transaction Amount using LAG()
+* Show Next Transaction Amount using LEAD()
+* Calculate Running Total using SUM() OVER()
+* Find Second Highest Account Balance
+* Customers with More Than Two Transactions
+* Customer-wise Minimum and Maximum Transaction Amount
+* Transaction Summary Analysis
+* Account Balance Analysis
+
+---
 
 ## Technologies Used
-- SQL Server
-- SSMS (SQL Server Management Studio)
+
+* Microsoft SQL Server
+* SQL Server Management Studio (SSMS)
+
+---
+
+## Learning Outcomes
+
+Through these assignments, I gained practical experience in:
+
+* SQL Fundamentals
+* Data Manipulation and Filtering
+* Aggregate Functions
+* Grouping and Sorting Data
+* SQL Joins
+* Window Functions
+* Ranking Techniques
+* Analytical Queries
+* Database Design and Management
+
+---
+
+## Author
+
+**Dnyaneshwari Jamdhade**

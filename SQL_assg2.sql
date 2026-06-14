@@ -1,5 +1,5 @@
 --BANKING MANAGEMENT SYSTEM
---SQL Practice Questions
+
 
 use SQL_7PM;
 -- Create Customers Table

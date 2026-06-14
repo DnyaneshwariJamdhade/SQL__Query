@@ -127,9 +127,13 @@ from Customers c inner join Loans l
 on c.CustomerId = l.CustomerID;
 
 -- 4.Find the total deposited amount and total withdrawn amount separately.
-select TransactionType,sum(amount) as TotalAmount
-from Transactions
-group by TransactionType;
+--total deposit amount
+select sum(amount) as TotalAmountDeposit from Transactions
+where TransactionType='Deposit';
+--total withdraw amount
+select sum(amount) as TotalAmountWithdraw from Transactions
+where TransactionType='Withdraw';
+
 
 -- 5.Display customer-wise total transaction amount using GROUP BY.
 select c.CustomerID,c.CustomerName,sum(t.Amount) as TotalTransactionAmount
